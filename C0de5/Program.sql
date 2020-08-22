@@ -19,8 +19,24 @@ DROP INDEX - deletes an index
 
 [3] Selecting 2 Columns
 
-SELECT CustomerName, City FROM Customers;
+SELECT CustomerName, City 
+FROM Customers;
 
 [4] Using * in SQL
 
-SELECT * FROM Customers;
+SELECT * 
+FROM Customers;
+
+[5] The SQL SELECT DISTINCT Statement
+
+Syntax: SELECT DISTINCT column1, column2, ...
+        FROM table_name;
+        
+1. SELECT Country 
+    FROM Customers;
+
+2. SELECT DISTINCT Country 
+    FROM Customers;
+
+3. SELECT COUNT(DISTINCT Country) 
+    FROM Customers;
