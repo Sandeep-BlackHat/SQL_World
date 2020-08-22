@@ -16,3 +16,8 @@ ALTER TABLE - modifies a table
 DROP TABLE - deletes a table
 CREATE INDEX - creates an index (search key)
 DROP INDEX - deletes an index
+
+[3] Selecting 2 Columns
+
+SELECT CustomerName, City FROM Customers;
+
