@@ -1,9 +1,9 @@
-[1] #First SQL Code:
+[1] /*First SQL Code:*/
 
 SELECT *
 FROM Customers;
 
-[2] #Some of The Most Important SQL Commands
+[2] /*Some of The Most Important SQL Commands*/
 
 SELECT - extracts data from a database
 UPDATE - updates data in a database
@@ -17,17 +17,17 @@ DROP TABLE - deletes a table
 CREATE INDEX - creates an index (search key)
 DROP INDEX - deletes an index
 
-[3] Selecting 2 Columns
+[3] /*Selecting 2 Columns*/
 
 SELECT CustomerName, City 
 FROM Customers;
 
-[4] Using * in SQL
+[4] /*Using * in SQL*/
 
 SELECT * 
 FROM Customers;
 
-[5] The SQL SELECT DISTINCT Statement
+[5] /*The SQL SELECT DISTINCT Statement*/
 
 Syntax: SELECT DISTINCT column1, column2, ...
         FROM table_name;
@@ -41,7 +41,7 @@ Syntax: SELECT DISTINCT column1, column2, ...
 3. SELECT COUNT(DISTINCT Country) 
     FROM Customers;
 
-[6] The WHERE phrase
+[6] /*The WHERE phrase*/
 
 1. SELECT * FROM Customers
    WHERE Country='Mexico';
