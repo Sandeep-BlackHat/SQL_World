@@ -21,3 +21,6 @@ DROP INDEX - deletes an index
 
 SELECT CustomerName, City FROM Customers;
 
+[4] Using * in SQL
+
+SELECT * FROM Customers;
