@@ -59,5 +59,7 @@ Operator	Description
 <=	        Less than or equal	
 <>	        Not equal. Note: In some versions of SQL this operator may be written as !=	
 BETWEEN 	Between a certain range	
-LIKE	        Search for a pattern	
-IN	        To specify multiple possible values for a column
+LIKE	        Search for a pattern (SELECT * FROM Customers WHERE City LIKE 's%';)
+IN	        To specify multiple possible values for a column ( SELECT * FROM Customers WHERE City IN ('Paris','London'); )
+
+[8] 
