@@ -62,4 +62,19 @@ BETWEEN 	Between a certain range
 LIKE	        Search for a pattern (SELECT * FROM Customers WHERE City LIKE 's%';)
 IN	        To specify multiple possible values for a column ( SELECT * FROM Customers WHERE City IN ('Paris','London'); )
 
-[8] 
+[8] /*AND, OR and NOT */
+
+/*AND Syntax */
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+/*OR Syntax*/
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+
+/*NOT Syntax*/
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
