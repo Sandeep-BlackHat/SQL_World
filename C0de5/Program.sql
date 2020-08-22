@@ -40,3 +40,11 @@ Syntax: SELECT DISTINCT column1, column2, ...
 
 3. SELECT COUNT(DISTINCT Country) 
     FROM Customers;
+
+[6] The WHERE phrase
+
+1. SELECT * FROM Customers
+   WHERE Country='Mexico';
+
+2. SELECT * FROM Customers
+   WHERE CustomerID=1;
