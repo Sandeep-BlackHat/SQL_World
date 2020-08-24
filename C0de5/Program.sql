@@ -117,3 +117,11 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 
 INSERT INTO Customers (CustomerName, City, Country)
 VALUES ('Cardinal', 'Stavanger', 'Norway');
+
+[10] /*SQL NULL*/
+
+/*IS NULL Syntax*/
+
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
