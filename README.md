@@ -1,6 +1,6 @@
 # My_SQL_World
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![SQL](https://i7.pngguru.com/preview/444/170/567/microsoft-sql-server-computer-icons-database-sql-cliparts.jpg)
 
 # What is SQL?
 
