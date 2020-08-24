@@ -41,3 +41,13 @@ RDBMS stands for Relational Database Management System.
 RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
 
 The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
+
+                                                                SQL (Structured Query Language)
+ - Paradigm:	Declarative
+ - Family:	Query language
+ - Designed by:	Donald D. Chamberlin
+                Raymond F. Boyce
+  - Developer:	ISO/IEC
+  - First appeared:	1974; 46 years ago
+  - Influenced by: Datalog
+  - Influenced: CQL, LINQ, SPARQL, SOQL, PowerShell,[1] JPQL, jOOQ, N1QL
