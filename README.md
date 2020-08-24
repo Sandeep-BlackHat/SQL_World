@@ -1,6 +1,6 @@
 # My_SQL_World
 
-![SQL](https://library.kissclipart.com/20180927/ple/kissclipart-sql-icon-clipart-microsoft-sql-server-clip-art-bb552eead0006e27.jpg)
+![SQL](https://clipart.info/images/ccovers/1499794875MySQL-logo-png-transparent.png)
 
 # What is SQL?
 
