@@ -1,5 +1,7 @@
 # My_SQL_World
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 # What is SQL?
 
 SQL stands for Structured Query Language
