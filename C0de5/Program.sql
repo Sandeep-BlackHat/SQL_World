@@ -131,3 +131,17 @@ WHERE column_name IS NULL;
 SELECT column_names
 FROM table_name
 WHERE column_name IS NOT NULL;
+
+/*Example*/
+
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;
+Tip: Always use IS NULL to look for NULL values.
+
+
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;
+
+[11] 
