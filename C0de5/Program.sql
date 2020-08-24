@@ -144,4 +144,9 @@ SELECT CustomerName, ContactName, Address
 FROM Customers
 WHERE Address IS NOT NULL;
 
-[11] 
+[11] /*The SQL UPDATE Statement*/
+
+UPDATE Syntax
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
