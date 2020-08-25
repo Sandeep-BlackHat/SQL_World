@@ -42,7 +42,7 @@ RDBMS is the basis for SQL, and for all modern database systems such as MS SQL S
 
 The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.
 
-                                                                SQL (Structured Query Language)
+                                                 SQL (Structured Query Language)
  - Paradigm:	Declarative
  - Family:	Query language
  - Designed by:	Donald D. Chamberlin
