@@ -162,3 +162,16 @@ Be careful when updating records. If you omit the WHERE clause, ALL records will
 
 UPDATE Customers
 SET ContactName='Juan';
+
+[11] /*SQL DELETE*/
+
+/*Syntax*/
+
+DELETE FROM table_name WHERE condition;
+
+DELETE FROM Customers
+WHERE CustomerName='Alfreds Futterkiste';
+
+/*Delete All Records*/
+
+DELETE FROM table_name;
