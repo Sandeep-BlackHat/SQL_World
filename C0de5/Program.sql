@@ -79,6 +79,22 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE NOT condition;
 
+The following SQL statement selects the first three records from the "Customers" table (for SQL Server/MS Access):
+
+Example
+SELECT TOP 3 * FROM Customers;
+
+The following SQL statement shows the equivalent example using the LIMIT clause (for MySQL):
+
+Example
+SELECT * 
+FROM Customers
+LIMIT 3;
+The following SQL statement shows the equivalent example using ROWNUM (for Oracle):
+
+Example
+SELECT * FROM Customers
+WHERE ROWNUM <= 3;
 /*Combining AND, OR and NOT*/
 
 SELECT * FROM Customers
@@ -196,3 +212,22 @@ LIMIT number;
 SELECT column_name(s)
 FROM table_name
 WHERE ROWNUM <= number;
+
+/*The following SQL statement selects the first three records from the "Customers" table (for SQL Server/MS Access):*/
+
+SELECT TOP 3 * 
+FROM Customers;
+
+/*The following SQL statement shows the equivalent example using the LIMIT clause (for MySQL):*/
+
+Example
+SELECT * 
+FROM Customers
+LIMIT 3;
+
+/*The following SQL statement shows the equivalent example using ROWNUM (for Oracle):*/
+
+Example
+SELECT * 
+FROM Customers
+WHERE ROWNUM <= 3;
