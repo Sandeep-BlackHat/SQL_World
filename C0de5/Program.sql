@@ -175,3 +175,24 @@ WHERE CustomerName='Alfreds Futterkiste';
 /*Delete All Records*/
 
 DELETE FROM table_name;
+
+[12] /*SQL TOP, LIMIT or ROWNUM Clause*/
+
+/*SQL Server / MS Access Syntax:*/
+
+SELECT TOP number|percent column_name(s)
+FROM table_name
+WHERE condition;
+
+/*MySQL Syntax:*/
+
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+/*Oracle Syntax:*/
+
+SELECT column_name(s)
+FROM table_name
+WHERE ROWNUM <= number;
