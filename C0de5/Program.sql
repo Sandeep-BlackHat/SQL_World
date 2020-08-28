@@ -249,3 +249,18 @@ FROM Products;
 
 SELECT MAX(Price) AS LargestPrice
 FROM Products;
+
+[14] /*AVG, Count, SUM*/
+
+/*COUNT() Example
+The following SQL statement finds the number of products:*/
+
+SELECT COUNT(ProductID)
+FROM Products;
+/*Note: NULL values are not counted.*/
+
+/*AVG() Example
+The following SQL statement finds the average price of all products:*/
+
+SELECT AVG(Price)
+FROM Products;
