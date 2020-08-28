@@ -231,3 +231,15 @@ Example
 SELECT * 
 FROM Customers
 WHERE ROWNUM <= 3;
+
+[13] /*SQL MAX and MIN*/
+
+/*Max Syntax*/
+SELECT MAX(Price)
+AS MAX_Price
+FROM Customers;
+
+/*Min Syntax*/
+SELECT MIN(Price)
+AS MIN_price   
+FROM Customer
