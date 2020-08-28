@@ -241,5 +241,11 @@ FROM Customers;
 
 /*Min Syntax*/
 SELECT MIN(Price)
-AS MIN_price   
+AS MIN_price 
 FROM Customer
+
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+SELECT MAX(Price) AS LargestPrice
+FROM Products;
