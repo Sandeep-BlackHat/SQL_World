@@ -264,3 +264,10 @@ The following SQL statement finds the average price of all products:*/
 
 SELECT AVG(Price)
 FROM Products;
+
+/*SUM() Example
+The following SQL statement finds the sum of the "Quantity" fields in the "OrderDetails" table:*/
+
+SELECT SUM(Quantity)
+FROM OrderDetails;
+/*Note: NULL values are ignored.*/
