@@ -271,3 +271,21 @@ The following SQL statement finds the sum of the "Quantity" fields in the "Order
 SELECT SUM(Quantity)
 FROM OrderDetails;
 /*Note: NULL values are ignored.*/
+
+[15] /*SQL LIKE Operator*/
+
+/*The SQL LIKE Operator
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+% - The percent sign represents zero, one, or multiple characters
+_ - The underscore represents a single character
+Note: MS Access uses an asterisk (*) instead of the percent sign (%), and a question mark (?) instead of the underscore (_).
+
+The percent sign and the underscore can also be used in combinations!*/
+
+/*LIKE Syntax*/
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
