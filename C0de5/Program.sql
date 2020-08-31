@@ -319,3 +319,20 @@ The following SQL statement selects all customers with a CustomerName that does 
 
 SELECT * FROM Customers
 WHERE CustomerName NOT LIKE 'a%';
+
+[16] /*Using the _ Wildcard*/
+/*The following SQL statement selects all customers with a City starting with any character, followed by "ondon":*/
+
+SELECT * FROM Customers
+WHERE City LIKE '_ondon'
+
+/*Using the [charlist] Wildcard
+The following SQL statement selects all customers with a City starting with "b", "s", or "p":*/
+
+SELECT * FROM Customers
+WHERE City LIKE '[bsp]%';
+
+/*The following SQL statement selects all customers with a City starting with "a", "b", or "c":*/
+
+SELECT * FROM Customers
+WHERE City LIKE '[a-c]%';
