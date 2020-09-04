@@ -25,3 +25,10 @@ The following SQL statement selects all products with a price BETWEEN 10 and 20.
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20
 AND CategoryID NOT IN (1,2,3);
+
+/*BETWEEN Text Values Example
+The following SQL statement selects all products with a ProductName BETWEEN Carnarvon Tigers and Mozzarella di Giovanni:*/
+
+SELECT * FROM Products
+WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
+ORDER BY ProductName;
