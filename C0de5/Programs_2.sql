@@ -39,3 +39,14 @@ The following SQL statement selects all products with a ProductName NOT BETWEEN 
 SELECT * FROM Products
 WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
+
+/*BETWEEN Dates Example
+The following SQL statement selects all orders with an OrderDate BETWEEN '01-July-1996' and '31-July-1996':/*
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN #01/07/1996# AND #31/07/1996#;
+
+/*OR:*/
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
