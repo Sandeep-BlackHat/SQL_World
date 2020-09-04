@@ -12,3 +12,6 @@ WHERE column_name IN (value1, value2, ...);
 SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
