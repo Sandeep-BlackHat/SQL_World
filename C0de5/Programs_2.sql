@@ -32,3 +32,10 @@ The following SQL statement selects all products with a ProductName BETWEEN Carn
 SELECT * FROM Products
 WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
+
+/*NOT BETWEEN Text Values Example
+The following SQL statement selects all products with a ProductName NOT BETWEEN Carnarvon Tigers and Mozzarella di Giovanni:*/
+
+SELECT * FROM Products
+WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
+ORDER BY ProductName;
