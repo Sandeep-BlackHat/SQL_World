@@ -18,3 +18,10 @@ WHERE Price BETWEEN 10 AND 20;
 
 SELECT * FROM Products
 WHERE Price NOT BETWEEN 10 AND 20;
+
+[3] /*BETWEEN with IN Example
+The following SQL statement selects all products with a price BETWEEN 10 and 20. In addition; do not show products with a CategoryID of 1,2, or 3:*/
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+AND CategoryID NOT IN (1,2,3);
