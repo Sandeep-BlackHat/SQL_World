@@ -41,7 +41,7 @@ WHERE ProductName NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
 
 /*BETWEEN Dates Example
-The following SQL statement selects all orders with an OrderDate BETWEEN '01-July-1996' and '31-July-1996':/*
+The following SQL statement selects all orders with an OrderDate BETWEEN '01-July-1996' and '31-July-1996':*/
 
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN #01/07/1996# AND #31/07/1996#;
@@ -50,3 +50,13 @@ WHERE OrderDate BETWEEN #01/07/1996# AND #31/07/1996#;
 
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
+[4] /*SQL Aliases*/
+
+/*Alias Column Syntax*/
+SELECT column_name AS alias_name
+FROM table_name;
+
+/*Alias Table Syntax*/
+SELECT column_name(s)
+FROM table_name AS alias_name;
