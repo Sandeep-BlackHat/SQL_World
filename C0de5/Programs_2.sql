@@ -60,3 +60,9 @@ FROM table_name;
 /*Alias Table Syntax*/
 SELECT column_name(s)
 FROM table_name AS alias_name;
+
+SELECT CustomerName, Address + ', ' + PostalCode + ' ,' + City + ', ' + Country AS Address
+FROM Customers;
+
+SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
+FROM Customers;
