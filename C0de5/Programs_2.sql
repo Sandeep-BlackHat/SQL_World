@@ -74,3 +74,9 @@ WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
 SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName
 FROM Customers, Orders
 WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.CustomerID;
+
+[5] /*SQL JOINS*/
+
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
