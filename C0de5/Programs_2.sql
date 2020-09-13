@@ -80,3 +80,9 @@ WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.C
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
 INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+
+-- Inner Join:
+
+SELECT Orders.OrderID, Customers.CustomerName
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
