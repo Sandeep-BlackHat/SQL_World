@@ -1,6 +1,6 @@
 # My_SQL_World
 
-![SQL](https://clipart.info/images/ccovers/1499794875MySQL-logo-png-transparent.png)
+!(https://clipart.info/images/ccovers/1499794875MySQL-logo-png-transparent.png)
 
 # What is SQL?
 
